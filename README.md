@@ -1,9 +1,7 @@
 <div align="center"><img src="http://i.imgur.com/kvgZcTr.png"/></div>
 <hr>
 
-<div align="center">Solving a Kata (programming problems hosted on http://codewars.com) everyday!
-</br>
-<b>Next Solution:</b> Retired</div>
+<div align="center"><b>[DEPRECATED]</b> Solving a Kata (programming problems hosted on http://codewars.com) everyday!
 
 <hr>
 
