@@ -10,9 +10,9 @@ public class ConwayLife {
 
 	public static void main(String[] args) {
 		int[][] gliders = {
-				{0, 1, 0},
-				{0, 0, 1},
-				{1, 1, 1}
+			{0, 1, 0},
+			{0, 0, 1},
+			{1, 1, 1}
 		};
 		ConwayLifeGrid grid = new ConwayLifeGrid(gliders);
 		System.out.println(grid.get(1, 0) + " " + grid.get(1, 1) + " " + grid.get(1, 2));

@@ -64,10 +64,10 @@ public class BingoCardTests {
 		String[] card = BingoCard.getCard();
 
 		int count = checkColumnOnRandomness(card, "B", 1, 5) +
-				checkColumnOnRandomness(card, "I", 6, 10) +
-				checkColumnOnRandomness(card, "N", 11, 14) +
-				checkColumnOnRandomness(card, "G", 15, 19) +
-				checkColumnOnRandomness(card, "O", 20, 24);
+			checkColumnOnRandomness(card, "I", 6, 10) +
+			checkColumnOnRandomness(card, "N", 11, 14) +
+			checkColumnOnRandomness(card, "G", 15, 19) +
+			checkColumnOnRandomness(card, "O", 20, 24);
 
 		assertTrue(String.format("Unlikely event: found only %d columns that are in random order.", count), count > 1);
 	}

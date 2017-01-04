@@ -13,8 +13,8 @@ public class SG1Test {
 	@Test
 	public void testNoSolution() {
 		String existingWires = "SX.\n" +
-				"XX.\n" +
-				"..G";
+			"XX.\n" +
+			"..G";
 
 		String solution = "Oh for crying out loud...";
 
@@ -24,12 +24,12 @@ public class SG1Test {
 	@Test
 	public void test3x3() {
 		String existingWires = "SX.\n" +
-				"X..\n" +
-				"XXG";
+			"X..\n" +
+			"XXG";
 
 		String solution = "SX.\n" +
-				"XP.\n" +
-				"XXG";
+			"XP.\n" +
+			"XXG";
 
 		assertEquals(solution, SG1.wireDHD(existingWires));
 	}
@@ -37,16 +37,16 @@ public class SG1Test {
 	@Test
 	public void test5x5() {
 		String existingWires = ".S...\n" +
-				"XXX..\n" +
-				".X.XX\n" +
-				"..X..\n" +
-				"G...X";
+			"XXX..\n" +
+			".X.XX\n" +
+			"..X..\n" +
+			"G...X";
 
 		String solution = ".SP..\n" +
-				"XXXP.\n" +
-				".XPXX\n" +
-				".PX..\n" +
-				"G...X";
+			"XXXP.\n" +
+			".XPXX\n" +
+			".PX..\n" +
+			"G...X";
 
 		assertEquals(solution, SG1.wireDHD(existingWires));
 	}
@@ -54,26 +54,26 @@ public class SG1Test {
 	@Test
 	public void test10x10() {
 		String existingWires = "XX.S.XXX..\n" +
-				"XXXX.X..XX\n" +
-				"...X.XX...\n" +
-				"XX...XXX.X\n" +
-				"....XXX...\n" +
-				"XXXX...XXX\n" +
-				"X...XX...X\n" +
-				"X...X...XX\n" +
-				"XXXXXXXX.X\n" +
-				"G........X";
+			"XXXX.X..XX\n" +
+			"...X.XX...\n" +
+			"XX...XXX.X\n" +
+			"....XXX...\n" +
+			"XXXX...XXX\n" +
+			"X...XX...X\n" +
+			"X...X...XX\n" +
+			"XXXXXXXX.X\n" +
+			"G........X";
 
 		String solution = "XX.S.XXX..\n" +
-				"XXXXPX..XX\n" +
-				"...XPXX...\n" +
-				"XX.P.XXX.X\n" +
-				"...PXXX...\n" +
-				"XXXXPP.XXX\n" +
-				"X...XXP..X\n" +
-				"X...X..PXX\n" +
-				"XXXXXXXXPX\n" +
-				"GPPPPPPP.X";
+			"XXXXPX..XX\n" +
+			"...XPXX...\n" +
+			"XX.P.XXX.X\n" +
+			"...PXXX...\n" +
+			"XXXXPP.XXX\n" +
+			"X...XXP..X\n" +
+			"X...X..PXX\n" +
+			"XXXXXXXXPX\n" +
+			"GPPPPPPP.X";
 
 		assertEquals(solution, SG1.wireDHD(existingWires));
 	}

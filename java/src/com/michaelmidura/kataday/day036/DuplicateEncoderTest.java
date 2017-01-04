@@ -9,7 +9,7 @@ public class DuplicateEncoderTest {
 	@Test
 	public void test() {
 		assertEquals(")()())()(()()(",
-				DuplicateEncoder.encode("Prespecialized"));
+			DuplicateEncoder.encode("Prespecialized"));
 		assertEquals("))))())))", DuplicateEncoder.encode("   ()(   "));
 	}
 }
