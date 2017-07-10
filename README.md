@@ -1,9 +1,6 @@
-<div align="center"><img src="http://i.imgur.com/kvgZcTr.png"/></div>
-<hr>
+# ‹ proph-game › ![stability-locked](https://img.shields.io/badge/stability-locked-blue.svg)
 
-<div align="center"><b>[DEPRECATED]</b> Solving a Kata (programming problems hosted on http://codewars.com) everyday!
-
-<hr>
+Solving a Kata (programming problems hosted on http://codewars.com) everyday!
 
 <table border="0" style="width:100%;">
   <tr>
