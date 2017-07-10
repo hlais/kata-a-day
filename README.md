@@ -2,6 +2,8 @@
 
 Solving a Kata (programming problems hosted on http://codewars.com) everyday!
 
+## Solutions
+
 <table border="0" style="width:100%;">
   <tr>
     <th>Day</th>
