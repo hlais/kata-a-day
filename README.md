@@ -1,4 +1,4 @@
-# ‹ kata-a-day › ![Stability: Locked](https://img.shields.io/badge/stability-locked-blue.svg)
+# ‹ kata-a-day › [![Stability: Locked](https://img.shields.io/badge/stability-locked-blue.svg)](https://github.com/michaelwm/kata-a-day/releases/latest)
 
 Solving a Kata (programming problems hosted on http://codewars.com) everyday!
 
