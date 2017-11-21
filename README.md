@@ -1,6 +1,6 @@
 # ‹ kata-a-day › [![Stability: Locked](https://img.shields.io/badge/stability-locked-blue.svg)](https://github.com/michaelwm/kata-a-day/releases/latest)
 
-Solving Codewars programming challenges every day.
+Solutions for Codewars programming challenges posted every day.
 
 ## Solutions
 
